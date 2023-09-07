@@ -1,0 +1,326 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Witcher",
+      "slug": "the-witcher",
+      "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+      "trailerUrl": "https://www.imdb.com/video/vi144361241/?playlistId=tt5180504&ref_=tt_ov_vi",
+      "imgUrl": "https://i.pinimg.com/564x/9a/ab/e8/9aabe8e47cc2c3ba25aacce0eec67141.jpg",
+      "rating": 8,
+      "GenreId": 1,
+      "AuthorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Avengers: Endgame",
+      "slug": "avengers-endgame",
+      "synopsis": "The Avengers must assemble once more to reverse the devastating effects of Thanos' snap.",
+      "trailerUrl": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+      "imgUrl": "https://i.pinimg.com/564x/4c/a7/d5/4ca7d5ddb1a5b4767e702162c21fa4f1.jpg",
+      "rating": 9,
+      "GenreId": 1,
+      "AuthorId": 1
+    },
+    {
+      "id": 3,
+      "title": "Inception",
+      "slug": "inception",
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "trailerUrl": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "imgUrl": "https://i.pinimg.com/564x/7c/22/18/7c221896796b9c3bc1f462f68957402d.jpg",
+      "rating": 9.3,
+      "GenreId": 2,
+      "AuthorId": 1
+    },
+    {
+      "id": 4,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "trailerUrl": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+      "imgUrl": "https://i.pinimg.com/564x/28/84/d3/2884d3f2428ae0937aa89c8d5d2d2485.jpg",
+      "rating": 8.8,
+      "GenreId": 1,
+      "AuthorId": 1
+    },
+    {
+      "id": 5,
+      "title": "Interstellar",
+      "slug": "interstellar",
+      "synopsis": "A team of explorers travel through a wormhole in space to ensure humanity's survival.",
+      "trailerUrl": "https://www.youtube.com/watch?v=0vxOhd4qlnA",
+      "imgUrl": "https://i.pinimg.com/564x/0b/34/ce/0b34ce2145b475247577a5d438a199b0.jpg",
+      "rating": 9.1,
+      "GenreId": 2,
+      "AuthorId": 1
+    },
+    {
+      "id": 6,
+      "title": "Black Panther",
+      "slug": "black-panther",
+      "synopsis": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+      "trailerUrl": "https://www.youtube.com/watch?v=dxWvtMOGAhw",
+      "imgUrl": "https://i.pinimg.com/564x/15/68/02/156802d438167e33d61b6833a63b24fa.jpg",
+      "rating": 7.3,
+      "GenreId": 1,
+      "AuthorId": 1
+    },
+    {
+      "id": 7,
+      "title": "The Shawshank Redemption",
+      "slug": "the-shawshank-redemption",
+      "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "trailerUrl": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+      "imgUrl": "https://i.pinimg.com/564x/06/25/43/06254300619f09941229da40c152a22f.jpg",
+      "rating": 9.3,
+      "GenreId": 3,
+      "AuthorId": 1
+    },
+    {
+      "id": 8,
+      "title": "The Dark Knight",
+      "slug": "the-dark-knight",
+      "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "trailerUrl": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+      "imgUrl": "https://i.pinimg.com/564x/83/9a/04/839a046d5787aa573073ae170a07ed4a.jpg",
+      "rating": 9,
+      "GenreId": 3,
+      "AuthorId": 1
+    },
+    {
+      "id": 9,
+      "title": "The Matrix",
+      "slug": "the-matrix",
+      "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "trailerUrl": "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+      "imgUrl": "https://i.pinimg.com/564x/62/f2/41/62f241fd34d94f303a71df7fc7274fbb.jpg",
+      "rating": 8.7,
+      "GenreId": 2,
+      "AuthorId": 1
+    },
+    {
+      "id": 10,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "slug": "harry-potter-and-the-sorcerers-stone",
+      "synopsis": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family, and the terrible evil that haunts the magical world.",
+      "trailerUrl": "https://www.youtube.com/watch?v=PbdM1db3JbY",
+      "imgUrl": "https://i.pinimg.com/564x/68/08/e2/6808e2893d29d0e7fd07c1d5f30bfbcf.jpg",
+      "rating": 8.6,
+      "GenreId": 1,
+      "AuthorId": 1
+    }
+  ],
+  "genre": [
+    {
+      "id": 1,
+      "name": "Anime"
+    },
+    {
+      "id": 2,
+      "name": "Felicia"
+    },
+    {
+      "id": 3,
+      "name": "Aurellya"
+    },
+    {
+      "id": 4,
+      "name": "Gossip Kak Ardy"
+    },
+    {
+      "id": 5,
+      "name": "jalan"
+    },
+    {
+      "name": "jalan lagi",
+      "id": 6
+    }
+  ],
+  "casts": [
+    {
+      "id": 1,
+      "MovieId": 1,
+      "name": "Henry Cavill",
+      "profilePict": "https://i.pinimg.com/474x/84/84/c5/8484c518edb526c8cd4d7f163094e3c5.jpg"
+    },
+    {
+      "id": 2,
+      "MovieId": 1,
+      "name": "Anya Chalotra",
+      "profilePict": "https://i.pinimg.com/564x/af/d3/91/afd3915d54ec748424fcd748088dabe1.jpg"
+    },
+    {
+      "MovieId": 1,
+      "name": "Freya Allan",
+      "profilePict": "https://i.pinimg.com/564x/c9/aa/99/c9aa998fd2b240175a1ab88b3c50f56f.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "MovieId": 2,
+      "name": "Robert Downey Jr.",
+      "profilePict": "https://i.pinimg.com/564x/a0/14/72/a01472b93b6b65ac1e99a1e5c72bb8c3.jpg"
+    },
+    {
+      "id": 5,
+      "MovieId": 2,
+      "name": "Chris Evans",
+      "profilePict": "https://i.pinimg.com/564x/51/96/1c/51961c9cc941f646a6b8a6dd29e41548.jpg"
+    },
+    {
+      "id": 6,
+      "MovieId": 2,
+      "name": "Mark Ruffalo",
+      "profilePict": "https://i.pinimg.com/564x/a2/f3/56/a2f356d7a4f88a745b682f7410e21e7e.jpg"
+    },
+    {
+      "id": 7,
+      "MovieId": 3,
+      "name": "Leonardo DiCaprio",
+      "profilePict": "https://i.pinimg.com/564x/09/57/d6/0957d68a08de9137b3cc9e26f5a5186f.jpg"
+    },
+    {
+      "id": 8,
+      "MovieId": 3,
+      "name": "Joseph Gordon-Levitt",
+      "profilePict": "https://i.pinimg.com/564x/3b/5c/cb/3b5ccbe18507165b9f67b4ff2df04f2b.jpg"
+    },
+    {
+      "id": 9,
+      "MovieId": 3,
+      "name": "Elliot Page",
+      "profilePict": "https://i.pinimg.com/564x/bf/49/bb/bf49bb118b5587f95a5161b1bb71b778.jpg"
+    },
+    {
+      "id": 10,
+      "MovieId": 4,
+      "name": "Elijah Wood",
+      "profilePict": "https://i.pinimg.com/564x/d8/14/b9/d814b9408533e7c2df40025f5c8a3524.jpg"
+    },
+    {
+      "id": 11,
+      "MovieId": 4,
+      "name": "Ian McKellen",
+      "profilePict": "https://i.pinimg.com/564x/af/50/f2/af50f2e8a2b33a166e1b7a1d5e9cf3d6.jpg"
+    },
+    {
+      "id": 12,
+      "MovieId": 4,
+      "name": "Viggo Mortensen",
+      "profilePict": "https://i.pinimg.com/564x/05/77/f4/0577f48539de4c356b0147f4b3c5e3e0.jpg"
+    },
+    {
+      "id": 13,
+      "MovieId": 5,
+      "name": "Matthew McConaughey",
+      "profilePict": "https://i.pinimg.com/564x/a1/67/53/a1675372439e8780c5a26a11be9e3d8e.jpg"
+    },
+    {
+      "id": 14,
+      "MovieId": 5,
+      "name": "Anne Hathaway",
+      "profilePict": "https://i.pinimg.com/564x/34/5f/59/345f59e982bbac90d6a783ce4723ce4e.jpg"
+    },
+    {
+      "id": 15,
+      "MovieId": 5,
+      "name": "Jessica Chastain",
+      "profilePict": "https://i.pinimg.com/564x/d3/9c/fb/d39cfbe3b04eb7ebf198d3b5b0a6b12f.jpg"
+    },
+    {
+      "id": 16,
+      "MovieId": 6,
+      "name": "Chadwick Boseman",
+      "profilePict": "https://i.pinimg.com/564x/aa/26/a1/aa26a108c1e6f5b8e576659bc22ff243.jpg"
+    },
+    {
+      "id": 17,
+      "MovieId": 6,
+      "name": "Michael B. Jordan",
+      "profilePict": "https://i.pinimg.com/564x/0a/67/74/0a677409b693b4d27f9f50e9f9c288bf.jpg"
+    },
+    {
+      "id": 18,
+      "MovieId": 6,
+      "name": "Lupita Nyong'o",
+      "profilePict": "https://i.pinimg.com/564x/d0/17/8c/d0178c43385874dce0f2a58a6e3b4d2d.jpg"
+    },
+    {
+      "id": 19,
+      "MovieId": 7,
+      "name": "Tim Robbins",
+      "profilePict": "https://i.pinimg.com/564x/6f/24/42/6f2442b744b340e1ff69f0fb3efb76d6.jpg"
+    },
+    {
+      "id": 20,
+      "MovieId": 7,
+      "name": "Morgan Freeman",
+      "profilePict": "https://i.pinimg.com/564x/30/16/9b/30169b68da53b7b7f30a1b7d9ee9f218.jpg"
+    },
+    {
+      "id": 21,
+      "MovieId": 8,
+      "name": "Christian Bale",
+      "profilePict": "https://i.pinimg.com/564x/60/02/d0/6002d07615c9a698f2f9746867bb33e1.jpg"
+    },
+    {
+      "id": 22,
+      "MovieId": 8,
+      "name": "Heath Ledger",
+      "profilePict": "https://i.pinimg.com/564x/2c/d4/20/2cd4200bb59adbd537ae8d073780a4e0.jpg"
+    },
+    {
+      "id": 23,
+      "MovieId": 9,
+      "name": "Keanu Reeves",
+      "profilePict": "https://i.pinimg.com/564x/df/91/8f/df918f6c8fb456cf3d82e26ceeed1f50.jpg"
+    },
+    {
+      "id": 24,
+      "MovieId": 9,
+      "name": "Carrie-Anne Moss",
+      "profilePict": "https://i.pinimg.com/564x/f6/98/ab/f698ab8af963d7fca1717884ec27c0d5.jpg"
+    },
+    {
+      "id": 25,
+      "MovieId": 10,
+      "name": "Daniel Radcliffe",
+      "profilePict": "https://i.pinimg.com/564x/80/65/f4/8065f4d1c9d30a3be96b72f92f249a21.jpg"
+    },
+    {
+      "id": 26,
+      "MovieId": 10,
+      "name": "Emma Watson",
+      "profilePict": "https://i.pinimg.com/564x/6d/99/3d/6d993daff1008b36b11cd29de3da168e.jpg"
+    },
+    {
+      "id": 27,
+      "MovieId": 10,
+      "name": "Rupert Grint",
+      "profilePict": "https://i.pinimg.com/564x/d0/ed/9b/d0ed9b68d1e4dbdb1f936a1eb55c7ed7.jpg"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin1@gmail.com",
+      "password": "admin1"
+    },
+    {
+      "email": "admin2@gmail.com",
+      "password": "admin2"
+    },
+    {
+      "email": "admin3@gmail.com",
+      "password": "admin3"
+    },
+    {
+      "email": "admin4@gmail.com",
+      "password": "admin4"
+    },
+    {
+      "email": "admin5@gmail.com",
+      "password": "admin5"
+    }
+  ]
+}

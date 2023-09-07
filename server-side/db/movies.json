@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "The Witcher",
+        "slug": "the-witcher",
+        "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/9a/ab/e8/9aabe8e47cc2c3ba25aacce0eec67141.jpg",
+        "rating": 8,
+        "GenreId": 1,
+        "AuthorId": 1
+    },
+    {
+        "id": 2,
+        "title": "Avengers: Endgame",
+        "slug": "avengers-endgame",
+        "synopsis": "The Avengers must assemble once more to reverse the devastating effects of Thanos' snap.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/4c/a7/d5/4ca7d5ddb1a5b4767e702162c21fa4f1.jpg",
+        "rating": 9,
+        "GenreId": 1,
+        "AuthorId": 2
+    },
+    {
+        "id": 3,
+        "title": "Inception",
+        "slug": "inception",
+        "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/7c/22/18/7c221896796b9c3bc1f462f68957402d.jpg",
+        "rating": 9.3,
+        "GenreId": 2,
+        "AuthorId": 3
+    },
+    {
+        "id": 4,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+        "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/28/84/d3/2884d3f2428ae0937aa89c8d5d2d2485.jpg",
+        "rating": 8.8,
+        "GenreId": 1,
+        "AuthorId": 4
+    },
+    {
+        "id": 5,
+        "title": "Interstellar",
+        "slug": "interstellar",
+        "synopsis": "A team of explorers travel through a wormhole in space to ensure humanity's survival.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/0b/34/ce/0b34ce2145b475247577a5d438a199b0.jpg",
+        "rating": 9.1,
+        "GenreId": 2,
+        "AuthorId": 5
+    },
+    {
+        "id": 6,
+        "title": "Black Panther",
+        "slug": "black-panther",
+        "synopsis": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/15/68/02/156802d438167e33d61b6833a63b24fa.jpg",
+        "rating": 7.3,
+        "GenreId": 1,
+        "AuthorId": 1
+    },
+    {
+        "id": 7,
+        "title": "The Shawshank Redemption",
+        "slug": "the-shawshank-redemption",
+        "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/06/25/43/06254300619f09941229da40c152a22f.jpg",
+        "rating": 9.3,
+        "GenreId": 3,
+        "AuthorId": 1
+    },
+    {
+        "id": 8,
+        "title": "The Dark Knight",
+        "slug": "the-dark-knight",
+        "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/83/9a/04/839a046d5787aa573073ae170a07ed4a.jpg",
+        "rating": 9,
+        "GenreId": 3,
+        "AuthorId": 1
+    },
+    {
+        "id": 9,
+        "title": "The Matrix",
+        "slug": "the-matrix",
+        "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/62/f2/41/62f241fd34d94f303a71df7fc7274fbb.jpg",
+        "rating": 8.7,
+        "GenreId": 2,
+        "AuthorId": 1
+    },
+    {
+        "id": 10,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "slug": "harry-potter-and-the-sorcerers-stone",
+        "synopsis": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family, and the terrible evil that haunts the magical world.",
+        "trailerUrl": "https://www.youtube.com/watch?v=ArmDp-zijuc",
+        "imgUrl": "https://i.pinimg.com/564x/68/08/e2/6808e2893d29d0e7fd07c1d5f30bfbcf.jpg",
+        "rating": 8.6,
+        "GenreId": 1,
+        "AuthorId": 1
+    }
+]
