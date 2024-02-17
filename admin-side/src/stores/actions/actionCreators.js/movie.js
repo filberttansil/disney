@@ -60,7 +60,6 @@ export function fetchMovies() {
 export function fetchMovieById(id) {
   return async (dispatch) => {
     try {
-      console.log("masuk actionCreator", id);
       dispatch(fetchMovieByIdLoading(true));
       const response = await fetch(API_URL + `/movie/${id}`, {
         method: "GET",

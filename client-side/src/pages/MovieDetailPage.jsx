@@ -6,8 +6,7 @@ import Loader from "../components/Loader";
 
 export default function MovieDetailPage() {
   const { movie, movieLoading } = useSelector((state) => state.movie);
-  console.log(movieLoading, "<<<");
-  console.log(movie);
+
   const { id } = useParams();
   const dispatch = useDispatch();
   const formatDate = (date) => {
@@ -20,7 +19,6 @@ export default function MovieDetailPage() {
   };
   useEffect(() => {
     dispatch(fetchMoviesById(id));
-    console.log(movie);
   }, []);
   if (movieLoading) return <Loader />;
   return (
@@ -47,12 +45,13 @@ export default function MovieDetailPage() {
           <div className="mt-6">
             <h2 className="text-xl font-semibold">Trailer</h2>
             <iframe
-              className="rounded-md"
               width="560"
               height="315"
               src={movie.trailerUrl}
-              frameborder="0"
-              allowfullscreen
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
             ></iframe>
           </div>
           {/* Cast */}
@@ -60,7 +59,7 @@ export default function MovieDetailPage() {
             <h2 className="text-xl font-semibold">Cast:</h2>
             <div className="flex gap-2">
               {movie.Casts.map((cast, index) => (
-                <div className="flex flex-col gap-2">
+                <div key={index} className="flex flex-col gap-2">
                   <img
                     className="w-[200px] h-[250px] rounded-md"
                     src={cast.profilePict}

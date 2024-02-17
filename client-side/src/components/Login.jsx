@@ -84,7 +84,7 @@ export default function Login() {
             New to Disney+?
             <a
               onClick={() => {
-                navigate("/login");
+                navigate("/register");
               }}
               className="text-blue-600 font-semibold pl-2 cursor-pointer"
             >
