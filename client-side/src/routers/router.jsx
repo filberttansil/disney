@@ -9,14 +9,7 @@ import Register from "../pages/RegisterPage";
 const router = createBrowserRouter([
   {
     element: <BaseLayout />,
-    loader: () => {
-      const token = localStorage.getItem("access_token");
-      if (!token) {
-        throw redirect("/login");
-      }
 
-      return null;
-    },
     children: [
       {
         path: "/",
@@ -31,31 +24,6 @@ const router = createBrowserRouter([
         element: <MovieDetailPage />,
       },
     ],
-  },
-
-  {
-    path: "/login",
-    element: <LoginPage />,
-    loader: () => {
-      const token = localStorage.getItem("access_token");
-      if (token) {
-        throw redirect("/");
-      }
-
-      return null;
-    },
-  },
-  {
-    path: "/register",
-    element: <Register />,
-    loader: () => {
-      const token = localStorage.getItem("access_token");
-      if (token) {
-        throw redirect("/");
-      }
-
-      return null;
-    },
   },
 ]);
 export default router;

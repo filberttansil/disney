@@ -23,7 +23,7 @@ const movieReducer = (state = initialState, action) => {
       // RETURN NEW STATE
       return {
         ...state,
-        movies: action.payload.data,
+        movies: action.payload,
         dataMoviesLength: action.payload.dataLength,
       };
     case MOVIES_LOADING:

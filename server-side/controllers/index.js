@@ -1,4 +1,10 @@
 const { ControllerUser } = require("./userController");
 const { ControllerGenre } = require("./genreController");
 const { ControllerMovie } = require("./movieController");
-module.exports = { ControllerUser, ControllerGenre, ControllerMovie };
+const { ControllerPublic } = require("./pubController");
+module.exports = {
+  ControllerUser,
+  ControllerGenre,
+  ControllerMovie,
+  ControllerPublic,
+};

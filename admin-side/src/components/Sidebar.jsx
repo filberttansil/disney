@@ -1,6 +1,10 @@
 import { useNavigate } from "react-router-dom";
 export default function Sidebar() {
   const navigate = useNavigate();
+  const handleLogOut = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <>
       <aside
@@ -69,7 +73,10 @@ export default function Sidebar() {
               </a>
             </li>
             <li>
-              <a className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-300 group">
+              <a
+                onClick={() => handleLogOut()}
+                className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-300 group"
+              >
                 <svg
                   className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   aria-hidden="true"

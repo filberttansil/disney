@@ -38,12 +38,7 @@ export function fetchMovies() {
   return async (dispatch) => {
     try {
       dispatch(fetchMoviesLoading(true));
-      const response = await fetch(API_URL + "/movie", {
-        method: "GET",
-        headers: {
-          access_token: localStorage.getItem("access_token"),
-        },
-      });
+      const response = await fetch(API_URL + "/movies");
       const responseJSON = await response.json();
       dispatch(fetchMoviesSuccess(responseJSON));
     } catch (error) {
@@ -58,12 +53,7 @@ export function fetchMoviesById(id) {
   return async (dispatch) => {
     try {
       dispatch(fetchMovieDetailLoading(true));
-      const response = await fetch(API_URL + `/movie/${id}`, {
-        method: "GET",
-        headers: {
-          access_token: localStorage.getItem("access_token"),
-        },
-      });
+      const response = await fetch(API_URL + `/movie/${id}`);
       const responseJSON = await response.json();
       dispatch(fetchMovieDetailSuccess(responseJSON));
     } catch (error) {

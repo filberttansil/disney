@@ -13,10 +13,10 @@ export function login(userData) {
       });
       const data = await response.json();
 
-      localStorage.setItem("access_token", data.message);
       if (!response.ok) {
         throw data.message;
       }
+      localStorage.setItem("access_token", data.message);
       return dispatch({ type: LOGIN_SUCCESS, payload: data });
     } catch (err) {
       console.log(err);
